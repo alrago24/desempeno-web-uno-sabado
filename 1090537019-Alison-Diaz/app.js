@@ -49,7 +49,7 @@ function diagnosticoFinanciero() {
         case (gastosTotales > 1000):
             console.log("Has gastado mucho");
             break;
-        case (gastosTotales > 700 && gastosTotales <= 1000):
+        case (gastosTotales > 500 && gastosTotales <= 1000):
             console.log("Tus gastos son moderados");
             break;
         case (gastosTotales < 500):
